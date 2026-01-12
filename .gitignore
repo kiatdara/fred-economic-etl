@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.pyc
+venv/
+env/
+ENV/
+.venv
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# Secrets & Credentials
+.env
+*.pem
+*.key
+*credentials*.json
+service-account*.json
+*-key.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# Data files
+*.csv
+*.json
+*.parquet
+data/
+raw/
+processed/
+
+# Logs
+*.log

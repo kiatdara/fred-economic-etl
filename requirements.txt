@@ -1,0 +1,15 @@
+# Airflow
+apache-airflow==2.8.0
+
+# API & HTTP
+requests==2.31.0
+
+# Google Cloud
+google-cloud-storage==2.14.0
+google-cloud-bigquery==3.14.0
+
+# Data Processing
+pandas==2.1.4
+
+# Configuration
+python-dotenv==1.0.0
