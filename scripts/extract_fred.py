@@ -20,7 +20,7 @@ class FREDExtractor:
         Args:
             api_key: FRED API key
         """
-        self.api_key = "39393fe00a33d900f46132b72ff9bae4"
+        self.api_key = "TOKEN_YOUR"
         self.base_url = "https://api.stlouisfed.org/fred"
         
     def get_series_observations(
